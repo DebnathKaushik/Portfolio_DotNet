@@ -1,0 +1,107 @@
+﻿@model Entity.Business_Entity.UserDetailsViewModel
+
+@{
+    ViewData["Title"] = "Add Details";
+}
+
+<h1>Add Details for <span class="text-danger">@Model.UserName</span></h1>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form asp-action="AddDetails" method="post">
+    <input type="hidden" asp-for="UserId" />
+    <input type="hidden" asp-for="UserName" />
+
+
+    <!-- PROJECTS -->
+    <h3>Projects</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Project Title</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Projects.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <input asp-for="Projects[i].ProjectTitle" class="form-control" />
+                        <span asp-validation-for="Projects[i].ProjectTitle" class="text-danger"></span>
+                    </td>
+                    <td>
+                        <input asp-for="Projects[i].Description" class="form-control" />
+                        <span asp-validation-for="Projects[i].Description" class="text-danger"></span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- EXPERIENCES -->
+    <h3>Experiences</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Experiences.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <input asp-for="Experiences[i].CompanyName" class="form-control" />
+                        <span asp-validation-for="Experiences[i].CompanyName" class="text-danger"></span>
+                    </td>
+                    <td>
+                        <input asp-for="Experiences[i].Position" class="form-control" />
+                        <span asp-validation-for="Experiences[i].Position" class="text-danger"></span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- EDUCATIONS -->
+    <h3>Educations</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Institution</th>
+                <th>Degree</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Educations.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <input asp-for="Educations[i].Institution" class="form-control" />
+                        <span asp-validation-for="Educations[i].Institution" class="text-danger"></span>
+                    </td>
+                    <td>
+                        <input asp-for="Educations[i].Degree" class="form-control" />
+                        <span asp-validation-for="Educations[i].Degree" class="text-danger"></span>
+                    </td>
+                    <td>
+                        <input asp-for="Educations[i].Year" class="form-control" />
+                        <span asp-validation-for="Educations[i].Year" class="text-danger"></span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-success">Save Details</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

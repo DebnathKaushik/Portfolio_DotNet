@@ -1,0 +1,45 @@
+﻿@model Entity.Business_Entity.UserDTO
+
+@{
+    ViewData["Title"] = "Create User";
+}
+
+
+<a href="/User/Index" class="btn btn-success">All User</a>
+<br />
+<br />
+
+
+<h2>Create User</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group mb-2">
+        <label asp-for="UserName"></label>
+        <input asp-for="UserName" class="form-control" placeholder="Enter name" />
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-2">
+        <label asp-for="Age"></label>
+        <input asp-for="Age" class="form-control" placeholder="Enter age" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-2">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" placeholder="Enter email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-2">
+        <label asp-for="Bio"></label>
+        <input asp-for="Bio" class="form-control" placeholder="Enter bio" />
+        <span asp-validation-for="Bio" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-2">Create User</button>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

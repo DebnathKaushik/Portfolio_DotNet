@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Entity.Business_Entity.UserDTO>
+
+@{
+    ViewData["Title"] = "All Users";
+}
+
+
+<a href="/User/Create" class="btn btn-success">Create User</a>
+
+<br />
+<br />
+
+
+
+<h2 class="mb-3">All Registered Users</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>User ID</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserId</td>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>
+                        
+                        <a asp-controller="User" asp-action="Edit" asp-route-id="@user.UserId" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-controller="User" asp-action="Delete" asp-route-id="@user.UserId" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" class="text-center text-muted">No users found.</td>
+            </tr>
+        }
+    </tbody>
+</table>

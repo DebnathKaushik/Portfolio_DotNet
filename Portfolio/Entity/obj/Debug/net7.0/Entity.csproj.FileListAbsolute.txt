@@ -1,0 +1,14 @@
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\bin\Debug\net7.0\Entity.deps.json
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\bin\Debug\net7.0\Entity.runtimeconfig.json
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\bin\Debug\net7.0\Entity.dll
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\bin\Debug\net7.0\Entity.pdb
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.csproj.AssemblyReference.cache
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.AssemblyInfoInputs.cache
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.AssemblyInfo.cs
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.csproj.CoreCompileInputs.cache
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.dll
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\refint\Entity.dll
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.pdb
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.genruntimeconfig.cache
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\ref\Entity.dll
