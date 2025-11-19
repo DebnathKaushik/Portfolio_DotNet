@@ -1,4 +1,5 @@
 ﻿using Entity;
+using Entity.Common;
 using Microsoft.EntityFrameworkCore;
 using Repository.Interfaces;
 using System;
@@ -10,25 +11,31 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class BaseRepo<T> : IBaseRepo<T> where T : class
+    public class BaseRepo<T> : IBaseRepo<T> where T : class , IHasUserId
     {
         private readonly DB_Context _db;    // The whole database
         private readonly DbSet<T> _table;  // Specific table for entity type T
 
 
         // This is Constructor Injection — a form of Dependency Injection
-        // Framework automatically gives the DB_Context
+
         public BaseRepo(DB_Context db) 
         {
             _db = db;
             _table = _db.Set<T>();
         }
 
-        // ---------------------------------------
+        // -----------------------------------------------------------------------------
         public List<T> GetAll()
         {
             return _table.ToList();
         }
+
+        public List<T> Get_ByUserId(int userId)
+        {
+            return _table.Where(x => x.UserId == userId).ToList();
+        }
+
         public T GetById(int id)
         {
             return _table.Find(id);
@@ -62,5 +69,6 @@ namespace Repository
 
         }
 
+        
     }
 }

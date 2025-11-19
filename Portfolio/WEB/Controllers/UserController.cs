@@ -34,7 +34,7 @@ namespace WEB.Controllers
             var user = _userService.CreateUser(model);
 
             return RedirectToAction("AddDetails", "UserDetails",
-                new { userId = user.UserId, userName = user.UserName });
+                new { userId = user.UserId });
         }
 
 

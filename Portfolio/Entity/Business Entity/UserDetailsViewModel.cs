@@ -12,9 +12,9 @@ namespace Entity.Business_Entity
         public int UserId { get; set; }
         public string UserName { get; set; }
 
-        public List<Project> Projects { get; set; } = new List<Project>();
-        public List<Experience> Experiences { get; set; } = new List<Experience>();
-        public List<Education> Educations { get; set; } = new List<Education>();
+        public List<ProjectDTO> Projects { get; set; } = new();
+        public List<ExperienceDTO> Experiences { get; set; } = new();
+        public List<EducationDTO> Educations { get; set; } = new();
     }
 
 }

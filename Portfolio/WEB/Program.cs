@@ -18,6 +18,7 @@ builder.Services.AddDbContext<DB_Context>(options =>
 
 // Register generic repository [BaseRepo + IBaseRepo]
 builder.Services.AddScoped(typeof(IBaseRepo<>), typeof(BaseRepo<>));
+builder.Services.AddScoped<IUserRepo, UserRepo>();
 
 // Register AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));

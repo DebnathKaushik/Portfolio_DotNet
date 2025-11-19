@@ -30,6 +30,12 @@ namespace Manager.Services
             return _mapper.Map<List<EducationDTO>>(educations);
         }
 
+        public List<EducationDTO> GetEducationsByUserId(int userId) 
+        {
+            var educations = _educationRepo.Get_ByUserId(userId);
+            return _mapper.Map<List<EducationDTO>>(educations);
+        }
+
         public EducationDTO GetEducationById(int id)
         {
             var education = _educationRepo.GetById(id);

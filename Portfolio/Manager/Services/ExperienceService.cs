@@ -30,6 +30,12 @@ namespace Manager.Services
             return _mapper.Map<List<ExperienceDTO>>(experiences);
         }
 
+        public List<ExperienceDTO> GetExperiencesByUserId(int userId) 
+        {
+            var experiences = _experienceRepo.Get_ByUserId(userId);
+            return _mapper.Map<List<ExperienceDTO>>(experiences) ;
+        }
+
         public ExperienceDTO GetExperienceById(int id)
         {
             var experience = _experienceRepo.GetById(id);

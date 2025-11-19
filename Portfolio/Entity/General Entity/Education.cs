@@ -5,22 +5,23 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entity.Common;
 
 namespace Entity.General_Entity
 {
-    public class Education
+    public class Education : IHasUserId
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // for auto increment 
         public int EducationId { get; set; }
 
-        [Required]  // Must be provide this value in frontend 
+       // [Required]  // Must be provide this value in frontend 
         public string Institution { get; set; }
 
-        [Required]  // Must be provide this value in frontend
+       // [Required]  // Must be provide this value in frontend
         public string Degree { get; set; }
 
-        [Required]  // Must be provide this value in frontend
+       // [Required]  // Must be provide this value in frontend
         public string Year { get; set; }
 
 

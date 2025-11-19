@@ -1,0 +1,15 @@
+﻿@model Entity.Business_Entity.UserDTO
+
+@{
+    ViewData["Title"] = "Delete User";
+}
+
+<h2>Delete User</h2>
+<p>Are you sure you want to delete <strong>@Model.UserName</strong>?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="UserId" />
+
+    <button type="submit" name="choice" value="Yes" class="btn btn-danger">Yes</button>
+    <button type="submit" name="choice" value="No" class="btn btn-secondary">No</button>
+</form>

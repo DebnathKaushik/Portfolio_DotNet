@@ -30,6 +30,12 @@ namespace Manager.Services
             return _mapper.Map<List<ProjectDTO>>(projects);
         }
 
+        public List<ProjectDTO> GetProjectsByUserId(int userId)  
+        {
+            var projects = _projectRepo.Get_ByUserId(userId);
+            return _mapper.Map<List<ProjectDTO>>(projects) ;
+        }
+
         public ProjectDTO GetProjectById(int id)
         {
             var project = _projectRepo.GetById(id);

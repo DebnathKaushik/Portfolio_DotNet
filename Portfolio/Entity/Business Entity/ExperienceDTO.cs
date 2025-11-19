@@ -14,6 +14,6 @@ namespace Entity.Business_Entity
 
         // For related Data
         public int UserId { get; set; }
-        public string UserName { get; set; }
+       // public string UserName { get; set; }
     }
 }

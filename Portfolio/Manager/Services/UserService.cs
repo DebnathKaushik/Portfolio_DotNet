@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Entity.Business_Entity;
+using Entity.Common;
 using Entity.General_Entity;
 using Repository.Interfaces;
 using System;
@@ -10,13 +11,13 @@ using System.Threading.Tasks;
 
 namespace Manager.Services
 {
-    public class UserService
+    public class UserService 
     {
-        private readonly IBaseRepo<User> _userRepo;
+        private readonly IUserRepo _userRepo;
         private readonly IMapper _mapper;
 
         // Dependency Injection (abstruction)
-        public UserService(IBaseRepo<User> userRepo, IMapper mapper) 
+        public UserService(IUserRepo userRepo, IMapper mapper) 
         {
             _userRepo = userRepo;
             _mapper = mapper;
@@ -40,10 +41,9 @@ namespace Manager.Services
 
         public UserDTO CreateUser(UserDTO obj)
         {
-            var userEntity = _mapper.Map<User>(obj); // Convert UserDTO obj to actual User entity
+            var userEntity = _mapper.Map<User>(obj); // Convert UserDTO obj --> Entity
             var created = _userRepo.Create(userEntity); // cause _userRepo(Repo) deals with actual entity obj
-            Console.WriteLine($"Created User ID: {created.UserId}");
-            return _mapper.Map<UserDTO>(created);
+            return _mapper.Map<UserDTO>(created); // Convert Entity ---> UserDTO obj
         }
 
         public UserDTO UpdateUser(UserDTO obj)

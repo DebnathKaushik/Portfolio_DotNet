@@ -15,12 +15,12 @@ namespace Entity.General_Entity
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // for auto increment 
         public int UserId { get; set; }
 
-        [Required]  // Must be provide this value in frontend 
+       // [Required]  // Must be provide this value in frontend 
         [Display(Name = "User Name")] // for display this "User Name" in UI
         public string UserName { get; set; }
         public int Age { get; set; }
 
-        [Required]  // Must be provide value in frontend 
+        //[Required]  // Must be provide value in frontend 
         public string Email { get; set; }
         public string Bio { get; set; }
 
