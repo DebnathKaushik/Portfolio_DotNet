@@ -1,8 +1,14 @@
 ﻿@model Entity.Business_Entity.UserFullDetailsVM
 
-<h2>User Details: @Model.User.UserName</h2>
 
-<h4>Basic Info</h4>
+
+
+<a asp-controller="User" asp-action="Index" class="btn btn-dark btn-sm ">Back</a>
+
+
+<h2 class="text-center">User Details: @Model.User.UserName</h2>
+
+<h4>Basic User Info</h4>
 <ul>
     <li>Email: @Model.User.Email</li>
     <li>Age: @Model.User.Age</li>

@@ -48,7 +48,7 @@ namespace WEB.Controllers
         }
 
 
-        // For Show Full User Details
+        // For Show Full User Details ( Stored Procedure type)
         [HttpGet]
         public IActionResult FullUserDetails(int userId) 
         { 

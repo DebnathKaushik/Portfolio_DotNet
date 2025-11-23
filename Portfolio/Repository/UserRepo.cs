@@ -62,7 +62,7 @@ namespace Repository
 
         public UserFullDetailsVM GetUserFullDetails(int userId)
         {
-            // Ado .Net connection here
+            // Ado .Net connection here ( here is Multiple Model sets , that's why Ado.net )
 
             using (var connection = _db.Database.GetDbConnection())
             {
