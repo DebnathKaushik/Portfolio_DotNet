@@ -39,12 +39,27 @@ namespace WEB.Controllers
 
 
 
-        // For Show all User
+        // For Show all User ( Get All User )
         [HttpGet]
         public IActionResult Index()
         {
             var users = _userService.GetAllusers();
             return View(users);
         }
+
+
+        // For Show Full User Details
+        [HttpGet]
+        public IActionResult FullUserDetails(int userId) 
+        { 
+            var vm = _userService.GetUserFullDetails(userId);
+            if( vm == null || vm.User == null )
+            {
+                return NotFound();
+            }
+            return View(vm);
+        }
+
+
     }
 }

@@ -1,0 +1,75 @@
+﻿@model Entity.Business_Entity.UserFullDetailsVM
+
+<h2>User Details: @Model.User.UserName</h2>
+
+<h4>Basic Info</h4>
+<ul>
+    <li>Email: @Model.User.Email</li>
+    <li>Age: @Model.User.Age</li>
+    <li>Bio: @Model.User.Bio</li>
+</ul>
+
+<hr />
+
+<h3>Projects</h3>
+@if (Model.Projects.Any())
+{
+    <table class="table table-bordered">
+        <tr><th>Title</th><th>Description</th></tr>
+        @foreach (var p in Model.Projects)
+        {
+            <tr>
+                <td>@p.ProjectTitle</td>
+                <td>@p.Description</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No Projects Found</p>
+}
+
+<hr />
+
+<h3>Education</h3>
+@if (Model.Educations.Any())
+{
+    <table class="table table-bordered">
+        <tr><th>Institution</th><th>Degree</th><th>Year</th></tr>
+        @foreach (var e in Model.Educations)
+        {
+            <tr>
+                <td>@e.Institution</td>
+                <td>@e.Degree</td>
+                <td>@e.Year</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No Education Found</p>
+}
+
+<hr />
+
+<h3>Experience</h3>
+@if (Model.Experiences.Any())
+{
+    <table class="table table-bordered">
+        <tr><th>Company</th><th>Role</th></tr>
+        @foreach (var ex in Model.Experiences)
+        {
+            <tr>
+                <td>@ex.CompanyName</td>
+                <td>@ex.Position</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No Experience Found</p>
+}
+

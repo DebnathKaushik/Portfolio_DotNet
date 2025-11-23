@@ -1,4 +1,5 @@
-﻿using Entity.General_Entity;
+﻿using Entity.Business_Entity;
+using Entity.General_Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,7 @@ namespace Repository.Interfaces
         User Create(User entity);
         User Update(User entity);
         bool Delete(int id);
+
+        UserFullDetailsVM GetUserFullDetails(int userId);
     }
 }

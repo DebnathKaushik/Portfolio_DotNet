@@ -61,5 +61,13 @@ namespace Manager.Services
 
 
 
+        // For Show User Full Deatils 
+        public UserFullDetailsVM GetUserFullDetails(int userId)
+        {
+            return _userRepo.GetUserFullDetails(userId);
+        }
+
+
+
     }
 }
