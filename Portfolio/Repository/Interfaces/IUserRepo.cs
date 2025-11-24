@@ -16,6 +16,7 @@ namespace Repository.Interfaces
         User Update(User entity);
         bool Delete(int id);
 
-        UserFullDetailsVM GetUserFullDetails(int userId);
+        UserFullDetailsVM GetUserFullDetails(int userId);   // For Show all User Details
+        User GetUserByUserName(string userName);   // For search functionality
     }
 }

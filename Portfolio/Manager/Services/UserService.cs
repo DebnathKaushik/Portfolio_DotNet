@@ -67,6 +67,14 @@ namespace Manager.Services
             return _userRepo.GetUserFullDetails(userId);
         }
 
+        // For Search Functionality 
+        public UserDTO GetUserByUserName(string userName)
+        {
+            var ExsitsUser = _userRepo.GetUserByUserName(userName);
+            if (ExsitsUser == null) return null;
+            return _mapper.Map<UserDTO>(ExsitsUser);
+        }
+
 
 
     }

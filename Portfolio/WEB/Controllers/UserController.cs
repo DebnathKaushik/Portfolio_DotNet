@@ -47,6 +47,30 @@ namespace WEB.Controllers
             return View(users);
         }
 
+        // For Search functionality
+        [HttpPost]
+        public IActionResult Index(string userName) 
+        {
+            var users = _userService.GetAllusers(); // keep all users for table
+
+            if (string.IsNullOrEmpty(userName))
+            {
+                ViewBag.Error = "Please enter a username.";
+                return View(users);
+            }
+
+            var foundUser = _userService.GetUserByUserName(userName);  // in repo Stored Procedure kora
+            if (foundUser == null) 
+            {
+                ViewBag.Error = "User Not Found";
+                return View(users);
+            }
+
+            return RedirectToAction("FullUserDetails", new { userId = foundUser.UserId });
+        }
+
+
+
 
         // For Show Full User Details ( Stored Procedure type)
         [HttpGet]

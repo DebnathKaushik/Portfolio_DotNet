@@ -151,5 +151,14 @@ namespace Repository
             }
             
         }
+
+        // this is for Search Functionality 
+        public User GetUserByUserName(string userName)
+        {
+            return _db.Users
+            .FromSqlRaw("EXEC GetUserByUserName @UserName = {0}", userName)
+            .AsEnumerable()
+            .FirstOrDefault();
+        }
     }
 }
