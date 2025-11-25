@@ -70,7 +70,7 @@ namespace Repository
 
                 using(var cmd =  connection.CreateCommand()) 
                 {
-                    cmd.CommandText = "GetUserFullDetails"; // Stored Procedure Name
+                    cmd.CommandText = "GetUserFullDetails"; // Stored Procedure Name (SP)
                     cmd.CommandType = CommandType.StoredProcedure;
 
 
@@ -157,7 +157,7 @@ namespace Repository
         {
             return _db.Users
             .FromSqlRaw("EXEC GetUserByUserName @UserName = {0}", userName)
-            .AsEnumerable()
+            .AsEnumerable()  // EF core cant process LINQ or any sql cmd after Stored Procedure
             .FirstOrDefault();
         }
     }

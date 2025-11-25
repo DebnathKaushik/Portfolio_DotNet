@@ -8,6 +8,21 @@
 
 <h2 class="text-center">User Details: @Model.User.UserName</h2>
 
+<br />
+<br />
+
+
+<!-- This button for PDF -->
+<a asp-controller="UserDetails"  asp-action="ExportPdf" asp-route-userId="@Model.User.UserId" class="btn btn-danger">
+    Download PDF
+</a>
+
+
+<br />
+<br />
+
+
+
 <h4>Basic User Info</h4>
 <ul>
     <li>Email: @Model.User.Email</li>

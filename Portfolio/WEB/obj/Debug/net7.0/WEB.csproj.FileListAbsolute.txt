@@ -81,3 +81,5 @@ D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\WEB\obj\Debug\net7.0\refint\WEB.
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\WEB\obj\Debug\net7.0\WEB.pdb
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\WEB\obj\Debug\net7.0\WEB.genruntimeconfig.cache
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\WEB\obj\Debug\net7.0\ref\WEB.dll
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\WEB\bin\Debug\net7.0\iTextSharp.LGPLv2.Core.dll
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\WEB\bin\Debug\net7.0\BouncyCastle.Crypto.dll

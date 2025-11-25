@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Entity.Business_Entity;
 using Entity.General_Entity;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using Manager.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -199,6 +201,70 @@ namespace WEB.Controllers
 
         }
 
+
+        // For PDF UserDeatils --------------------------------------------
+       public IActionResult ExportPdf(int userId)
+        {
+            var userDetails = _userService.GetUserFullDetails(userId);
+
+            if(userDetails == null) return NotFound();
+
+            using(var ms = new MemoryStream()) 
+            {
+                var document = new iTextSharp.text.Document(); // Create iTextSharp instance
+                PdfWriter.GetInstance(document, ms);
+
+                document.Open();
+
+                // User Details
+                document.Add(new Paragraph("User Full Details"));
+                document.Add(new Paragraph("---------------------------------"));
+                document.Add(new Paragraph($"Name: {userDetails.User.UserName}"));
+                document.Add(new Paragraph($"Email: {userDetails.User.Email}"));
+                document.Add(new Paragraph($"Age: {userDetails.User.Age}"));
+                document.Add(new Paragraph($"Bio: {userDetails.User.Bio}"));
+                document.Add(new Paragraph("\n"));
+
+                // Projects
+                document.Add(new Paragraph("Projects"));
+                document.Add(new Paragraph("---------------------------------"));
+                foreach(var p in userDetails.Projects)
+                {
+                    document.Add(new Paragraph($"Title: {p.ProjectTitle}"));
+                    document.Add(new Paragraph($"Description: {p.Description}"));
+                    document.Add(new Paragraph("\n"));
+                }
+
+                // Educations
+                document.Add(new Paragraph("Educations"));
+                document.Add(new Paragraph("---------------------------------"));
+                foreach (var edu in userDetails.Educations)
+                {
+                    document.Add(new Paragraph($"Institution: {edu.Institution}"));
+                    document.Add(new Paragraph($"Degree: {edu.Degree}"));
+                    document.Add(new Paragraph($"Year: {edu.Year}"));
+                    document.Add(new Paragraph("\n"));
+                }
+
+                // Experiences
+                document.Add(new Paragraph("Experiences"));
+                document.Add(new Paragraph("---------------------------------"));
+                foreach (var exp in userDetails.Experiences)
+                {
+                    document.Add(new Paragraph($"CompanyName: {exp.CompanyName}"));
+                    document.Add(new Paragraph($"Degree: {exp.Position}"));
+                    document.Add(new Paragraph("\n"));
+                }
+
+                document.Close();
+
+                return File(ms.ToArray(),"application/pdf",$"{userDetails.User.UserName}_details.pdf");
+
+
+            }
+
+        }
+       
 
 
     }

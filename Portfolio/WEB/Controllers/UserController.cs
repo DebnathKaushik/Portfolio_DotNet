@@ -62,7 +62,7 @@ namespace WEB.Controllers
             var foundUser = _userService.GetUserByUserName(userName);  // in repo Stored Procedure kora
             if (foundUser == null) 
             {
-                ViewBag.Error = "User Not Found";
+                ViewBag.Error = "User Not Found";  // in frontend show Error Msg
                 return View(users);
             }
 
