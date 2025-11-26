@@ -68,11 +68,11 @@ namespace Manager.Services
         }
 
         // For Search Functionality 
-        public UserDTO GetUserByUserName(string userName)
+        public List<UserDTO> SearchUserByUserName(string userName)
         {
-            var ExsitsUser = _userRepo.GetUserByUserName(userName);
+            var ExsitsUser = _userRepo.SearchUserByUserName(userName);
             if (ExsitsUser == null) return null;
-            return _mapper.Map<UserDTO>(ExsitsUser);
+            return _mapper.Map<List<UserDTO>>(ExsitsUser);
         }
 
 

@@ -59,14 +59,15 @@ namespace WEB.Controllers
                 return View(users);
             }
 
-            var foundUser = _userService.GetUserByUserName(userName);  // in repo Stored Procedure kora
-            if (foundUser == null) 
+            var foundUser = _userService.SearchUserByUserName(userName);  // in repo Stored Procedure kora
+            if (foundUser == null || foundUser.Count == 0) 
             {
                 ViewBag.Error = "User Not Found";  // in frontend show Error Msg
                 return View(users);
             }
 
-            return RedirectToAction("FullUserDetails", new { userId = foundUser.UserId });
+            ViewBag.SearchResults = foundUser;
+            return View(users);
         }
 
 

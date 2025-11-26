@@ -152,13 +152,14 @@ namespace Repository
             
         }
 
+       
+        
         // this is for Search Functionality 
-        public User GetUserByUserName(string userName)
+        public List<User> SearchUserByUserName(string userName)
         {
             return _db.Users
-            .FromSqlRaw("EXEC GetUserByUserName @UserName = {0}", userName)
-            .AsEnumerable()  // EF core cant process LINQ or any sql cmd after Stored Procedure
-            .FirstOrDefault();
+                .FromSqlRaw("EXEC GetUserByUserName @UserName = {0}", userName)
+                .ToList();
         }
     }
 }

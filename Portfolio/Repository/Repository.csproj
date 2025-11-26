@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Entity\Entity.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="RDLC\Dataset\" />
+    <Folder Include="RDLC\" />
+    <Folder Include="RDLC\Reports\" />
+  </ItemGroup>
+
 </Project>

@@ -17,6 +17,7 @@ namespace Repository.Interfaces
         bool Delete(int id);
 
         UserFullDetailsVM GetUserFullDetails(int userId);   // For Show all User Details
-        User GetUserByUserName(string userName);   // For search functionality
+          
+        List<User> SearchUserByUserName(string userName);  // For search functionality
     }
 }
