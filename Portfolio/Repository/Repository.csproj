@@ -11,9 +11,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="RDLC\Dataset\" />
-    <Folder Include="RDLC\" />
-    <Folder Include="RDLC\Reports\" />
+    <Compile Update="RDLC\Dataset\UserDataSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UserDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="RDLC\Dataset\UserDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDataSet.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

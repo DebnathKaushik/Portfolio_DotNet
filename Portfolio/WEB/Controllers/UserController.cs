@@ -1,4 +1,5 @@
-﻿using Entity.Business_Entity;
+﻿using AspNetCore.Reporting;
+using Entity.Business_Entity;
 using Entity.General_Entity;
 using Manager.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -8,11 +9,14 @@ namespace WEB.Controllers
     public class UserController : Controller
     {
         private readonly UserService _userService;
+        private readonly IWebHostEnvironment _env;
+
 
         // Dependency Injection
-        public UserController(UserService userService)
+        public UserController(UserService userService, IWebHostEnvironment env)
         {
             _userService = userService;
+            _env = env;
         }
 
         // Get User Registration Page
@@ -73,7 +77,7 @@ namespace WEB.Controllers
 
 
 
-        // For Show Full User Details ( Stored Procedure type)
+        // For Show Full User Details ( Stored Procedure type --> See Details button )
         [HttpGet]
         public IActionResult FullUserDetails(int userId) 
         { 
@@ -84,6 +88,63 @@ namespace WEB.Controllers
             }
             return View(vm);
         }
+
+        // This is for RDLC Report Controller ----------------------------------------------
+        [HttpGet]
+        public IActionResult RDLCReport(int userId, string reportType) 
+        {
+            
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+
+            // 1. Get ViewModel data
+            var details = _userService.GetUserFullDetails(userId);
+            if (details == null) return NotFound();
+
+            // 2. Get RDLC file path
+            string rdlcFilePath = Path.Combine(_env.WebRootPath, "Report", "UserReport.rdlc");
+
+
+            // 3. Prepare parameters (if you had any)
+            Dictionary<string, string> parameters = new Dictionary<string, string>()
+            {
+                { "user", details.User.UserName }
+            };
+
+            // 4. Create LocalReport (AspNetCore.Reporting)
+            LocalReport report = new LocalReport(rdlcFilePath);
+
+            // 5. Add Data Sources (names must match RDLC dataset names)
+            report.AddDataSource("UserDetails", new[] { details.User });
+            report.AddDataSource("project", details.Projects);
+            report.AddDataSource("Education", details.Educations);
+            report.AddDataSource("Experience", details.Experiences);
+
+            if(reportType == "pdf")
+            {
+                // 6. Render PDF
+                var result = report.Execute(RenderType.Pdf, 1, parameters);
+
+                // 7. Return PDF file
+                return File(result.MainStream, "application/pdf", $"{details.User.UserName}_FullDetails.pdf");
+
+            }
+            else
+            {
+                var result = report.Execute(RenderType.Excel, 1, parameters);
+
+                return File(
+                    result.MainStream,
+                    "application/vnd.ms-excel",         // Excel 2003 MIME type
+                    $"{details.User.UserName}_FullDetails.xls"   // <<< IMPORTANT
+                );
+
+            }
+
+
+
+
+        }
+
 
 
     }

@@ -17,6 +17,20 @@
     Download PDF
 </a>
 
+<br />
+<br />
+
+<!-- This button for RDLC PDF & Excel Report -->
+<span style="display: flex; gap: 10px;">
+<a asp-controller="User" asp-action="RDLCReport" asp-route-reportType="pdf" asp-route-userId="@Model.User.UserId" class="btn btn-danger">
+    RDLC Report PDF
+</a>
+
+    <a asp-controller="User" asp-action="RDLCReport" asp-route-reportType="excel" asp-route-userId="@Model.User.UserId" class="btn btn-success">
+    RDLC Report Excel
+</a>
+</span>
+
 
 <br />
 <br />

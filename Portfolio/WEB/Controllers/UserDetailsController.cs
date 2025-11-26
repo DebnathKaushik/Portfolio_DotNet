@@ -203,6 +203,7 @@ namespace WEB.Controllers
 
 
         // For PDF UserDeatils --------------------------------------------
+        [HttpGet]
        public IActionResult ExportPdf(int userId)
         {
             var userDetails = _userService.GetUserFullDetails(userId);

@@ -79,7 +79,7 @@ namespace Repository
                     param.Value = userId;
                     cmd.Parameters.Add(param);
 
-                    var vm = new UserFullDetailsVM();   
+                    var vm = new UserFullDetailsVM();   // ViewModel Where bind my all 4 Model
 
                     using( var reader = cmd.ExecuteReader()) 
                     {
