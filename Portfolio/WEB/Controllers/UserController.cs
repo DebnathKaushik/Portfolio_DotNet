@@ -119,7 +119,7 @@ namespace WEB.Controllers
             report.AddDataSource("Education", details.Educations);
             report.AddDataSource("Experience", details.Experiences);
 
-            if(reportType == "pdf")
+            if(reportType == "pdf") // Click pdf button 
             {
                 // 6. Render PDF
                 var result = report.Execute(RenderType.Pdf, 1, parameters);
@@ -130,8 +130,10 @@ namespace WEB.Controllers
             }
             else
             {
+                // Render Excel
                 var result = report.Execute(RenderType.Excel, 1, parameters);
 
+                // Return Excel file
                 return File(
                     result.MainStream,
                     "application/vnd.ms-excel",         // Excel 2003 MIME type
