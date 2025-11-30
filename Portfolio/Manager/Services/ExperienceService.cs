@@ -32,7 +32,7 @@ namespace Manager.Services
 
         public List<ExperienceDTO> GetExperiencesByUserId(int userId) 
         {
-            var experiences = _experienceRepo.Get_ByUserId(userId);
+            var experiences = _experienceRepo.Get_ByUserId().Where(u => u.UserId == userId);
             return _mapper.Map<List<ExperienceDTO>>(experiences) ;
         }
 

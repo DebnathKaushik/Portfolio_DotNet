@@ -19,5 +19,7 @@ namespace Repository.Interfaces
         UserFullDetailsVM GetUserFullDetails(int userId);   // For Show all User Details
           
         List<User> SearchUserByUserName(string userName);  // For search functionality
-    }
+
+        IQueryable<User> GetAllUserPagination();  // For pagination
+     }
 }

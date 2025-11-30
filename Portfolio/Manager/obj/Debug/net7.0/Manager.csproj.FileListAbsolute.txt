@@ -1,3 +1,8 @@
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.csproj.AssemblyReference.cache
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.AssemblyInfoInputs.cache
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.AssemblyInfo.cs
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.csproj.CoreCompileInputs.cache
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Manager.deps.json
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Manager.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Manager.pdb
@@ -5,11 +10,6 @@ D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Entity.
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Repository.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Entity.pdb
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Repository.pdb
-D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.csproj.AssemblyReference.cache
-D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.GeneratedMSBuildEditorConfig.editorconfig
-D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.AssemblyInfoInputs.cache
-D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.AssemblyInfo.cs
-D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.csproj.CoreCompileInputs.cache
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.csproj.CopyComplete
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\refint\Manager.dll

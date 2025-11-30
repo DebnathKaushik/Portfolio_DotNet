@@ -276,6 +276,18 @@
               "target": "Package",
               "version": "[7.0.20, )"
             },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[10.5.9, )"
+            },
+            "X.PagedList.EF": {
+              "target": "Package",
+              "version": "[10.5.9, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[10.5.9, )"
+            },
             "iTextSharp.LGPLv2.Core": {
               "target": "Package",
               "version": "[1.7.4, )"

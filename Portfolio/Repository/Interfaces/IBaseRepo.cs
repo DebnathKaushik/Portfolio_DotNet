@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Repository.Interfaces
 {
-    public interface IBaseRepo<T> where T : class , IHasUserId
+    public interface IBaseRepo<T> where T : class 
     {
         List<T> GetAll();
-        List<T> Get_ByUserId(int userId);
+        IQueryable<T> Get_ByUserId();
         T GetById(int id);
         T Create(T entity);
         T Update(T entity);

@@ -10,7 +10,7 @@ using Entity.Common;
 
 namespace Entity.General_Entity
 {
-    public class Project : IHasUserId
+    public class Project
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // for auto increment 

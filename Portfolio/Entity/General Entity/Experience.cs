@@ -10,7 +10,7 @@ using Entity.Common;
 
 namespace Entity.General_Entity
 {
-    public class Experience : IHasUserId
+    public class Experience 
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // for auto increment 

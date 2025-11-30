@@ -9,7 +9,7 @@ using Entity.Common;
 
 namespace Entity.General_Entity
 {
-    public class Education : IHasUserId
+    public class Education
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // for auto increment 

@@ -32,7 +32,7 @@ namespace Manager.Services
 
         public List<ProjectDTO> GetProjectsByUserId(int userId)  
         {
-            var projects = _projectRepo.Get_ByUserId(userId);
+            var projects = _projectRepo.Get_ByUserId().Where(x => x.UserId == userId); // Here return IQueryable Project
             return _mapper.Map<List<ProjectDTO>>(projects) ;
         }
 

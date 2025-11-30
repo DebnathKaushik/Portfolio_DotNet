@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class BaseRepo<T> : IBaseRepo<T> where T : class , IHasUserId
+    public class BaseRepo<T> : IBaseRepo<T> where T : class
     {
         private readonly DB_Context _db;    // The whole database
         private readonly DbSet<T> _table;  // Specific table for entity type T
@@ -31,9 +31,9 @@ namespace Repository
             return _table.ToList();
         }
 
-        public List<T> Get_ByUserId(int userId)
+        public IQueryable<T> Get_ByUserId()  
         {
-            return _table.Where(x => x.UserId == userId).ToList();
+            return _table.AsNoTracking();
         }
 
         public T GetById(int id)

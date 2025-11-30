@@ -75,6 +75,24 @@ namespace Manager.Services
             return _mapper.Map<List<UserDTO>>(ExsitsUser);
         }
 
+        // For Pagination
+        public IQueryable<UserDTO> GetAllUserPagination()
+        {
+            var users = _userRepo.GetAllUserPagination(); // IQueryable<User>
+
+            var usersDto = users.Select(u => new UserDTO
+            {
+                UserId = u.UserId,
+                UserName = u.UserName,
+                Age = u.Age,
+                Email = u.Email,
+                Bio = u.Bio
+            });
+
+            return usersDto; // IQueryable<UserDTO>
+        }
+
+
 
 
     }

@@ -161,5 +161,12 @@ namespace Repository
                 .FromSqlRaw("EXEC GetUserByUserName @UserName = {0}", userName)
                 .ToList();
         }
+
+
+        // For Pagination
+        public IQueryable<User> GetAllUserPagination()
+        {
+            return _db.Users.AsQueryable();   // return IQueryable
+        }
     }
 }

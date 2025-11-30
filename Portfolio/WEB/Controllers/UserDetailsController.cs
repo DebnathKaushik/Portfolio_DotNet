@@ -27,7 +27,7 @@ namespace WEB.Controllers
 
         }
 
-        // GET: User details page for a user ----------------------------------------------------------------
+        // GET: User details page for a user --------------------------------------------------
         [HttpGet]
         public IActionResult AddDetails(int userId)
         {
@@ -50,7 +50,7 @@ namespace WEB.Controllers
         }
 
 
-        // POST: User Details page ( for submit )-------------------------------------------------------------
+        // POST: User Details page ( for submit )--------------------------------------------------
         [HttpPost]
         public IActionResult AddDetails(UserDetailsViewModel model)
         {

@@ -3,6 +3,11 @@ using Entity.Business_Entity;
 using Entity.General_Entity;
 using Manager.Services;
 using Microsoft.AspNetCore.Mvc;
+using X.PagedList;
+using X.PagedList.EF;
+using X.PagedList.Mvc.Core;
+
+
 
 namespace WEB.Controllers
 {
@@ -43,13 +48,21 @@ namespace WEB.Controllers
 
 
 
-        // For Show all User ( Get All User )
+        // For Show all User with Pagination Functionality
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            var users = _userService.GetAllusers();
-            return View(users);
+            int pageSize = 10;
+
+            var users = _userService.GetAllUserPagination(); // IQueryable<UserDTO>
+
+            var pagedData = await users
+                .OrderBy(u => u.UserId)
+                .ToPagedListAsync(page, pageSize);  // ToPagedListAsync() --> method is called then query get executed.
+
+            return View(pagedData); // model is IPagedList<UserDTO>
         }
+
 
         // For Search functionality
         [HttpPost]
@@ -149,5 +162,9 @@ namespace WEB.Controllers
 
 
 
-    }
+       
+      
+        
+
+    }   
 }

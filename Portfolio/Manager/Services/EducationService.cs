@@ -32,7 +32,7 @@ namespace Manager.Services
 
         public List<EducationDTO> GetEducationsByUserId(int userId) 
         {
-            var educations = _educationRepo.Get_ByUserId(userId);
+            var educations = _educationRepo.Get_ByUserId().Where(u => u.UserId == userId);
             return _mapper.Map<List<EducationDTO>>(educations);
         }
 
