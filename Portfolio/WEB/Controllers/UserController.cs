@@ -5,6 +5,7 @@ using Manager.Services;
 using Microsoft.AspNetCore.Mvc;
 using X.PagedList;
 using X.PagedList.EF;
+using X.PagedList.Extensions;
 using X.PagedList.Mvc.Core;
 
 
@@ -52,39 +53,48 @@ namespace WEB.Controllers
         [HttpGet]
         public async Task<IActionResult> Index(int page = 1)
         {
-            int pageSize = 10;
+            int pageSize = 5;
 
             var users = _userService.GetAllUserPagination(); // IQueryable<UserDTO>
 
-            var pagedData = await users
+            var pagedUser = await users
                 .OrderBy(u => u.UserId)
                 .ToPagedListAsync(page, pageSize);  // ToPagedListAsync() --> method is called then query get executed.
 
-            return View(pagedData); // model is IPagedList<UserDTO>
+            return View(pagedUser); // model is IPagedList<UserDTO>
         }
 
 
-        // For Search functionality
+        // For Search functionality with Pagination
         [HttpPost]
-        public IActionResult Index(string userName) 
+        public  IActionResult Index(string userName, int page = 1) 
         {
-            var users = _userService.GetAllusers(); // keep all users for table
+            int pageSize = 5;
+
+            var users = _userService.SearchUserByUserName(userName);  // // IQueryable<UserDTO>
 
             if (string.IsNullOrEmpty(userName))
             {
                 ViewBag.Error = "Please enter a username.";
-                return View(users);
+                var convertPagedUser = users.ToPagedList(page, pageSize);
+                return View(convertPagedUser);
             }
-
-            var foundUser = _userService.SearchUserByUserName(userName);  // in repo Stored Procedure kora
-            if (foundUser == null || foundUser.Count == 0) 
+            if (users == null || !users.Any()) 
             {
                 ViewBag.Error = "User Not Found";  // in frontend show Error Msg
-                return View(users);
+                var convertPagedUser = users.ToPagedList(page, pageSize);
+                return View(convertPagedUser);
             }
 
-            ViewBag.SearchResults = foundUser;
-            return View(users);
+
+            // Here List<UserDTO> Convert into IPagedist<UserDTO>
+            var Pageduser = users
+                .OrderBy(u => u.UserId)
+                .ToPagedList(page,pageSize); 
+
+
+            ViewBag.SearchResults = Pageduser;
+            return View(Pageduser);
         }
 
 

@@ -1,6 +1,5 @@
 ﻿<!-- Model Declaration -->
-
-@model IEnumerable<Entity.Business_Entity.UserDTO>
+@model IPagedList<Entity.Business_Entity.UserDTO>
 @using Entity.Business_Entity;
 @using X.PagedList
 @using X.PagedList.Mvc.Core
@@ -9,7 +8,6 @@
     ViewData["Title"] = "All Users";
 }
 
-<a href="/User/Create" class="btn btn-success">Create User</a>
 <br />
 <br />
 
@@ -65,9 +63,20 @@
 </table>
 
 <!-- Pagination (only for GET Index with IPagedList) -->
-@if (Model is IPagedList<Entity.Business_Entity.UserDTO>)
-{
+
     <div class="text-center mt-3">
-        @Html.PagedListPager((IPagedList<UserDTO>)Model, page => Url.Action("Index", new { page }))
+    <!-- PagedListPager is a helper method in Razor views (HTML) to render pagination links (Prev, Next, page numbers).-->
+        @Html.PagedListPager((IPagedList<UserDTO>)Model, page => Url.Action("Index", new { page }),
+    new PagedListRenderOptions
+    {
+    DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+    DisplayLinkToLastPage = PagedListDisplayMode.Always,
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always,
+    DisplayLinkToIndividualPages = true,
+    MaximumPageNumbersToDisplay = 5,
+    UlElementClasses = new[] { "pagination justify-content-center" },
+    LiElementClasses = new[] { "page-item" },
+    PageClasses = new[] { "page-link" }
+    })
     </div>
-}

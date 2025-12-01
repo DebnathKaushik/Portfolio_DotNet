@@ -155,7 +155,7 @@ namespace Repository
        
         
         // this is for Search Functionality 
-        public List<User> SearchUserByUserName(string userName)
+        public List<User>SearchUserByUserName(string userName)
         {
             return _db.Users
                 .FromSqlRaw("EXEC GetUserByUserName @UserName = {0}", userName)
@@ -166,7 +166,7 @@ namespace Repository
         // For Pagination
         public IQueryable<User> GetAllUserPagination()
         {
-            return _db.Users.AsQueryable();   // return IQueryable
+            return _db.Users.AsNoTracking();   // return IQueryable
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using Entity.Business_Entity;
 using Entity.Common;
 using Entity.General_Entity;
@@ -70,9 +71,9 @@ namespace Manager.Services
         // For Search Functionality 
         public List<UserDTO> SearchUserByUserName(string userName)
         {
-            var ExsitsUser = _userRepo.SearchUserByUserName(userName);
-            if (ExsitsUser == null) return null;
-            return _mapper.Map<List<UserDTO>>(ExsitsUser);
+            var user = _userRepo.SearchUserByUserName(userName);
+            if (user == null) return null;
+            return _mapper.Map<List<UserDTO>>(user);
         }
 
         // For Pagination
@@ -80,14 +81,16 @@ namespace Manager.Services
         {
             var users = _userRepo.GetAllUserPagination(); // IQueryable<User>
 
-            var usersDto = users.Select(u => new UserDTO
-            {
-                UserId = u.UserId,
-                UserName = u.UserName,
-                Age = u.Age,
-                Email = u.Email,
-                Bio = u.Bio
-            });
+            var usersDto = users
+                .AsQueryable()
+                .Select(u => new UserDTO
+                {
+                    UserId = u.UserId,
+                    UserName = u.UserName,
+                    Age = u.Age,
+                    Email = u.Email,
+                    Bio = u.Bio
+                });
 
             return usersDto; // IQueryable<UserDTO>
         }
