@@ -10,8 +10,9 @@ D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Entity.
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Repository.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Entity.pdb
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\bin\Debug\net7.0\Repository.pdb
-D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.csproj.CopyComplete
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\refint\Manager.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.pdb
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\ref\Manager.dll
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.sourcelink.json
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Manager\obj\Debug\net7.0\Manager.csproj.Up2Date

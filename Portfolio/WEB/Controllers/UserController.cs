@@ -36,15 +36,23 @@ namespace WEB.Controllers
         [HttpPost]
         public IActionResult Create(UserDTO model)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return View(model);
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
+
+                var user = _userService.CreateUser(model);
+
+                return RedirectToAction("AddDetails", "UserDetails",
+                    new { userId = user.UserId });
             }
-
-            var user = _userService.CreateUser(model);
-
-            return RedirectToAction("AddDetails", "UserDetails",
-                new { userId = user.UserId });
+            catch (Exception ex)
+            {
+                return View(ex);
+            }
+            
         }
 
 
@@ -53,15 +61,23 @@ namespace WEB.Controllers
         [HttpGet]
         public async Task<IActionResult> Index(int page = 1)
         {
-            int pageSize = 5;
+            try
+            {
+                int pageSize = 5;
 
-            var users = _userService.GetAllUserPagination(); // IQueryable<UserDTO>
+                var users = _userService.GetAllUserPagination(); // IQueryable<UserDTO>
 
-            var pagedUser = await users
-                .OrderBy(u => u.UserId)
-                .ToPagedListAsync(page, pageSize);  // ToPagedListAsync() --> method is called then query get executed.
+                var pagedUser = await users
+                    .OrderBy(u => u.UserId)
+                    .ToPagedListAsync(page, pageSize);  // ToPagedListAsync() --> method is called then query get executed.
 
-            return View(pagedUser); // model is IPagedList<UserDTO>
+                return View(pagedUser); // model is IPagedList<UserDTO>
+            }
+            catch (Exception ex)
+            {
+                return View(ex);
+            }
+            
         }
 
 
@@ -69,32 +85,40 @@ namespace WEB.Controllers
         [HttpPost]
         public  IActionResult Index(string userName, int page = 1) 
         {
-            int pageSize = 5;
-
-            var users = _userService.SearchUserByUserName(userName);  // // IQueryable<UserDTO>
-
-            if (string.IsNullOrEmpty(userName))
+            try 
             {
-                ViewBag.Error = "Please enter a username.";
-                var convertPagedUser = users.ToPagedList(page, pageSize);
-                return View(convertPagedUser);
+                int pageSize = 5;
+
+                var users = _userService.SearchUserByUserName(userName);  // // IQueryable<UserDTO>
+
+                if (string.IsNullOrEmpty(userName))
+                {
+                    ViewBag.Error = "Please enter a username.";
+                    var convertPagedUser = users.ToPagedList(page, pageSize);
+                    return View(convertPagedUser);
+                }
+                if (users == null || !users.Any())
+                {
+                    ViewBag.Error = "User Not Found";  // in frontend show Error Msg
+                    var convertPagedUser = users.ToPagedList(page, pageSize);
+                    return View(convertPagedUser);
+                }
+
+
+                // Here List<UserDTO> Convert into IPagedist<UserDTO>
+                var Pageduser = users
+                    .OrderBy(u => u.UserId)
+                    .ToPagedList(page, pageSize);
+
+
+                ViewBag.SearchResults = Pageduser;
+                return View(Pageduser);
             }
-            if (users == null || !users.Any()) 
+            catch (Exception ex)
             {
-                ViewBag.Error = "User Not Found";  // in frontend show Error Msg
-                var convertPagedUser = users.ToPagedList(page, pageSize);
-                return View(convertPagedUser);
+                return View(ex);
             }
-
-
-            // Here List<UserDTO> Convert into IPagedist<UserDTO>
-            var Pageduser = users
-                .OrderBy(u => u.UserId)
-                .ToPagedList(page,pageSize); 
-
-
-            ViewBag.SearchResults = Pageduser;
-            return View(Pageduser);
+            
         }
 
 
@@ -102,71 +126,85 @@ namespace WEB.Controllers
 
         // For Show Full User Details ( Stored Procedure type --> See Details button )
         [HttpGet]
-        public IActionResult FullUserDetails(int userId) 
-        { 
-            var vm = _userService.GetUserFullDetails(userId);
-            if( vm == null || vm.User == null )
+        public IActionResult FullUserDetails(int userId)
+        {
+            try
             {
-                return NotFound();
+                var vm = _userService.GetUserFullDetails(userId);
+                    if (vm == null || vm.User == null)
+                    {
+                        return NotFound();
+                    }
+                return View(vm);
             }
-            return View(vm);
+            catch (Exception ex)
+            {
+                return View(ex);
+            }
+            
         }
 
         // This is for RDLC Report Controller ----------------------------------------------
         [HttpGet]
         public IActionResult RDLCReport(int userId, string reportType) 
         {
-            
-            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+            try
+            {
+                System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
 
-            // 1. Get ViewModel data
-            var details = _userService.GetUserFullDetails(userId);
-            if (details == null) return NotFound();
+                // 1. Get ViewModel data
+                var details = _userService.GetUserFullDetails(userId);
+                if (details == null) return NotFound();
 
-            // 2. Get RDLC file path
-            string rdlcFilePath = Path.Combine(_env.WebRootPath, "Report", "UserReport.rdlc");
+                // 2. Get RDLC file path
+                string rdlcFilePath = Path.Combine(_env.WebRootPath, "Report", "UserReport.rdlc");
 
 
-            // 3. Prepare parameters (if you had any)
-            Dictionary<string, string> parameters = new Dictionary<string, string>()
+                // 3. Prepare parameters (if you had any)
+                Dictionary<string, string> parameters = new Dictionary<string, string>()
             {
                 { "user", details.User.UserName }
             };
 
-            // 4. Create LocalReport (AspNetCore.Reporting)
-            LocalReport report = new LocalReport(rdlcFilePath);
+                // 4. Create LocalReport (AspNetCore.Reporting)
+                LocalReport report = new LocalReport(rdlcFilePath);
 
-            // 5. Add Data Sources (names must match RDLC dataset names)
-            report.AddDataSource("UserDetails", new[] { details.User });
-            report.AddDataSource("project", details.Projects);
-            report.AddDataSource("Education", details.Educations);
-            report.AddDataSource("Experience", details.Experiences);
+                // 5. Add Data Sources (names must match RDLC dataset names)
+                report.AddDataSource("UserDetails", new[] { details.User });
+                report.AddDataSource("project", details.Projects);
+                report.AddDataSource("Education", details.Educations);
+                report.AddDataSource("Experience", details.Experiences);
 
-            if(reportType == "pdf") // Click pdf button 
-            {
-                // 6. Render PDF
-                var result = report.Execute(RenderType.Pdf, 1, parameters);
+                if (reportType == "pdf") // Click pdf button 
+                {
+                    // 6. Render PDF
+                    var result = report.Execute(RenderType.Pdf, 1, parameters);
 
-                // 7. Return PDF file
-                return File(result.MainStream, "application/pdf", $"{details.User.UserName}_FullDetails.pdf");
+                    // 7. Return PDF file
+                    return File(result.MainStream, "application/pdf", $"{details.User.UserName}_FullDetails.pdf");
+
+                }
+                else
+                {
+                    // Render Excel
+                    var result = report.Execute(RenderType.Excel, 1, parameters);
+
+                    // Return Excel file
+                    return File(
+                        result.MainStream,
+                        "application/vnd.ms-excel",         // Excel 2003 MIME type
+                        $"{details.User.UserName}_FullDetails.xls"   // <<< IMPORTANT
+                    );
+
+                }
+
 
             }
-            else
+            catch (Exception ex)
             {
-                // Render Excel
-                var result = report.Execute(RenderType.Excel, 1, parameters);
-
-                // Return Excel file
-                return File(
-                    result.MainStream,
-                    "application/vnd.ms-excel",         // Excel 2003 MIME type
-                    $"{details.User.UserName}_FullDetails.xls"   // <<< IMPORTANT
-                );
-
+                return View(ex);
             }
-
-
-
+           
 
         }
 

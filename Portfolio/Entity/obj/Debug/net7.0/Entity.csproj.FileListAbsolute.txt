@@ -12,3 +12,4 @@ D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\refint\E
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.pdb
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.genruntimeconfig.cache
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\ref\Entity.dll
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Entity\obj\Debug\net7.0\Entity.sourcelink.json

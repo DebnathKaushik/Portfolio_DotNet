@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "404 - Page Not Found";
+}
+
+@if (ViewBag.ErrorCode == 404)
+{
+   
+    <h2 class="text-center text-danger">Page Not Found @ViewBag.ErrorCode</h2>
+    <p class="text-center">The page you requested does not exist.</p>
+    <div class="text-center mt-3">
+    <a asp-action="Index" asp-controller="User" class="btn btn-primary ">Go Home</a>
+    </div>
+}

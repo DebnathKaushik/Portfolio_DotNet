@@ -8,8 +8,9 @@ D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\bin\Debug\net7.0\Repo
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\bin\Debug\net7.0\Repository.pdb
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\bin\Debug\net7.0\Entity.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\bin\Debug\net7.0\Entity.pdb
-D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\obj\Debug\net7.0\Repository.csproj.CopyComplete
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\obj\Debug\net7.0\Repository.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\obj\Debug\net7.0\refint\Repository.dll
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\obj\Debug\net7.0\Repository.pdb
 D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\obj\Debug\net7.0\ref\Repository.dll
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\obj\Debug\net7.0\Repository.sourcelink.json
+D:\My Stuff\PROJECTS\Portfolio_DotNet\Portfolio\Repository\obj\Debug\net7.0\Repository.csproj.Up2Date
