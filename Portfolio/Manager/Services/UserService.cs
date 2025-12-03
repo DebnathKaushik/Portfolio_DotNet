@@ -20,7 +20,7 @@ namespace Manager.Services
        // private readonly IMapper _mapper;
 
         // Dependency Injection (abstruction)
-        public UserService(IUserRepo userRepo, IMapper mapper) 
+        public UserService(IUserRepo userRepo) 
         {
             _userRepo = userRepo;
            // _mapper = mapper;

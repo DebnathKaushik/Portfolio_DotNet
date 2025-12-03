@@ -17,7 +17,7 @@ namespace Manager.Services
        // private readonly IMapper _mapper;
 
         // Dependency Injection 
-        public EducationService(IBaseRepo<Education> educationRepo, IMapper mapper)
+        public EducationService(IBaseRepo<Education> educationRepo)
         {
             _educationRepo = educationRepo;
             //_mapper = mapper;

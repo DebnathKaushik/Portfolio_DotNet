@@ -17,7 +17,7 @@ namespace Manager.Services
         //private readonly IMapper _mapper;
 
         // Dependency Injection (abstruction)
-        public ProjectService(IBaseRepo<Project> projectRepo, IMapper mapper)
+        public ProjectService(IBaseRepo<Project> projectRepo)
         {
             _projectRepo = projectRepo;
            // _mapper = mapper;

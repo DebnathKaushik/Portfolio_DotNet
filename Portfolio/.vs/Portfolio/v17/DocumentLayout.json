@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +15,24 @@
       "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\utility\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\utility\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\general entity\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\general entity\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\utility\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\utility\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\general entity\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\general entity\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\utility\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\utility\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MappingExtensions.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Utility\\MappingExtensions.cs",
               "RelativeDocumentMoniker": "Manager\\Utility\\MappingExtensions.cs",
@@ -166,25 +166,24 @@
               "RelativeToolTip": "Manager\\Utility\\MappingExtensions.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:02:14.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T12:02:14.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Program.cs",
               "RelativeDocumentMoniker": "WEB\\Program.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Program.cs",
               "RelativeToolTip": "WEB\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T04:56:36.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Utility\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Manager\\Utility\\MappingProfile.cs",
@@ -197,39 +196,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Experience.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Experience.cs",
               "RelativeDocumentMoniker": "Entity\\General Entity\\Experience.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Experience.cs",
               "RelativeToolTip": "Entity\\General Entity\\Experience.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T12:04:29.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EducationService.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\EducationService.cs",
               "RelativeDocumentMoniker": "Manager\\Services\\EducationService.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\EducationService.cs",
               "RelativeToolTip": "Manager\\Services\\EducationService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAowD8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-30T11:14:15.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Manager\\Services\\UserService.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\UserService.cs",
               "RelativeToolTip": "Manager\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T06:35:33.812Z",
               "EditorCaption": ""
@@ -242,7 +241,7 @@
               "RelativeDocumentMoniker": "Manager\\Services\\ProjectService.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ProjectService.cs",
               "RelativeToolTip": "Manager\\Services\\ProjectService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwD8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T09:01:38.392Z",
               "EditorCaption": ""
@@ -255,7 +254,7 @@
               "RelativeDocumentMoniker": "Manager\\Services\\ExperienceService.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ExperienceService.cs",
               "RelativeToolTip": "Manager\\Services\\ExperienceService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwD8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T09:02:45.065Z",
               "EditorCaption": ""
@@ -270,8 +269,7 @@
               "RelativeToolTip": "Repository\\UserRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T11:44:55.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T11:44:55.172Z"
             },
             {
               "$type": "Document",
@@ -283,8 +281,7 @@
               "RelativeToolTip": "WEB\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAUwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T06:05:25.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T06:05:25.042Z"
             },
             {
               "$type": "Document",
@@ -296,8 +293,7 @@
               "RelativeToolTip": "Repository\\BaseRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T08:40:10.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T08:40:10.571Z"
             },
             {
               "$type": "Document",
@@ -309,8 +305,7 @@
               "RelativeToolTip": "WEB\\Controllers\\UserDetailsController.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAmwGEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:31:45.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T04:31:45.103Z"
             },
             {
               "$type": "Document",
@@ -322,8 +317,7 @@
               "RelativeToolTip": "WEB\\Controllers\\ErrorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T06:25:41.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T06:25:41.075Z"
             },
             {
               "$type": "Document",
@@ -335,8 +329,7 @@
               "RelativeToolTip": "WEB\\Views\\Error\\Notfound.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-02T07:10:27.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T07:10:27.041Z"
             },
             {
               "$type": "Document",
@@ -348,8 +341,7 @@
               "RelativeToolTip": "WEB\\Views\\Error\\ServerError.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-02T08:27:56.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T08:27:56.163Z"
             },
             {
               "$type": "Document",

@@ -17,7 +17,7 @@ namespace Manager.Services
         //private readonly IMapper _mapper;
 
         // Dependency Injection
-        public ExperienceService(IBaseRepo<Experience> experienceRepo, IMapper mapper)
+        public ExperienceService(IBaseRepo<Experience> experienceRepo)
         {
             _experienceRepo = experienceRepo;
            // _mapper = mapper;
