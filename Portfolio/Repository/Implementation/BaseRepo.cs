@@ -9,7 +9,7 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace Repository.Implementation
 {
     public class BaseRepo<T> : IBaseRepo<T> where T : class
     {
@@ -43,14 +43,14 @@ namespace Repository
         public T Create(T entity)
         {
             _table.Add(entity);
-            _db.SaveChanges();
+            //_db.SaveChanges();
             return entity;
         }
 
         public T Update(T entity)
         {
             _table.Update(entity);
-            _db.SaveChanges();
+            //_db.SaveChanges();
             return entity;
         }
 
@@ -63,7 +63,7 @@ namespace Repository
             }
             else{
                 _table.Remove(exist_entity);
-                _db.SaveChanges();
+               // _db.SaveChanges();
                 return true;
             }
 

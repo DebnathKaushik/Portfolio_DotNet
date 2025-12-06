@@ -3,7 +3,7 @@ using Entity;
 using Manager.Services;
 using Manager.Utility;
 using Microsoft.EntityFrameworkCore;
-using Repository;
+using Repository.Implementation;
 using Repository.Interfaces;
 
 
@@ -24,6 +24,9 @@ builder.Services.AddScoped<IUserRepo, UserRepo>();
 // Register AutoMapper
 // IMapper object ( singleton by default )
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+// Register IUnitOfwork 
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Register BLL Services
 builder.Services.AddScoped<UserService>();

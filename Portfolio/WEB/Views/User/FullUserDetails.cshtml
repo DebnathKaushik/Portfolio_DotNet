@@ -1,23 +1,17 @@
 ﻿@model Entity.Business_Entity.UserFullDetailsVM
 
 
-
-
-
-
-<h2 class="text-center">User Details: @Model.User.UserName</h2>
+<h2 class="text-center">User Details:  <span class="text-primary">@Model.User.UserName<span/></h2>
 
 <br />
 <br />
 
 
 <!-- This button for PDF -->
-<a asp-controller="UserDetails"  asp-action="ExportPdf" asp-route-userId="@Model.User.UserId" class="btn btn-danger">
+<a asp-controller="UserDetails"  asp-action="ExportPdf" asp-route-userId="@Model.User.UserId" hidden="true" class="btn btn-danger">
     Download PDF
 </a>
 
-<br />
-<br />
 
 <!-- This button for RDLC PDF & Excel Report -->
 <span style="display: flex; gap: 10px;">
@@ -106,4 +100,10 @@ else
 {
     <p>No Experience Found</p>
 }
+
+
+<button type="button" class="btn btn-secondary" onclick="history.back()">
+    Back
+</button>
+
 

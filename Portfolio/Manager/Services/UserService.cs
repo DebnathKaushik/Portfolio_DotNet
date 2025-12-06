@@ -16,14 +16,16 @@ namespace Manager.Services
 {
     public class UserService 
     {
-        private readonly IUserRepo _userRepo;
-       // private readonly IMapper _mapper;
+        //private readonly IUserRepo _userRepo;
+        private readonly IUnitOfWork _uow;
+        private readonly IMapper _mapper;
 
         // Dependency Injection (abstruction)
-        public UserService(IUserRepo userRepo) 
+        public UserService(IMapper mapper, IUnitOfWork uow) 
         {
-            _userRepo = userRepo;
-           // _mapper = mapper;
+            //_userRepo = userRepo;
+            _uow = uow;
+            _mapper = mapper;
 
         }
 
@@ -31,7 +33,7 @@ namespace Manager.Services
 
         public List<UserDTO> GetAllusers()
         {
-            var users = _userRepo.GetAll();
+            var users = _uow.user.GetAll();
             //return _mapper.Map<List<UserDTO>>(users);
             return users.Select(u => u.ToMap<UserDTO>()).ToList();
 
@@ -39,7 +41,7 @@ namespace Manager.Services
 
         public UserDTO GetUserById(int id) 
         {
-            var user = _userRepo.GetById(id);
+            var user = _uow.user.GetById(id);
             //return _mapper.Map<UserDTO>(user);
             return user.ToMap<UserDTO>();
         }
@@ -47,17 +49,19 @@ namespace Manager.Services
         public UserDTO CreateUser(UserDTO obj)
         {
             //var userEntity = _mapper.Map<User>(obj); 
-            var userEntity = obj.ToMap<User>();  // Convert UserDTO obj --> Entity
-            var created = _userRepo.Create(userEntity); // cause _userRepo(Repo) deals with actual entity obj
+            var userEntity = obj.ToMap<User>();  
+            var created = _uow.user.Create(userEntity);
+            _uow.save();
           // return _mapper.Map<UserDTO>(created); 
-            return created.ToMap<UserDTO>();   // Convert Entity ---> UserDTO obj
+            return created.ToMap<UserDTO>();   
         }
 
         public UserDTO UpdateUser(UserDTO obj)
         {
             //var userEntity = _mapper.Map<User>(obj);
             var userEntity = obj.ToMap<User>();
-            var updated = _userRepo.Update(userEntity);
+            var updated = _uow.user.Update(userEntity);
+            _uow.save();
             //return _mapper.Map<UserDTO>(updated);
             return updated.ToMap<UserDTO>();
 
@@ -65,7 +69,14 @@ namespace Manager.Services
 
         public bool DeleteUser(int id)
         {
-            return _userRepo.Delete(id);
+            var Willbedeleted = _uow.user.Delete(id);
+            if (Willbedeleted)
+            {
+                _uow.save();
+                return true;
+            }
+            return false;
+
         }
 
 
@@ -73,13 +84,13 @@ namespace Manager.Services
         // For Show User Full Deatils 
         public UserFullDetailsVM GetUserFullDetails(int userId)
         {
-            return _userRepo.GetUserFullDetails(userId);
+            return _uow.user.GetUserFullDetails(userId);
         }
 
         // For Search Functionality 
         public List<UserDTO> SearchUserByUserName(string userName)
         {
-            var user = _userRepo.SearchUserByUserName(userName);
+            var user = _uow.user.SearchUserByUserName(userName);
             if (user == null) return null;
             //return _mapper.Map<List<UserDTO>>(user);
             return user.Select(u => u.ToMap<UserDTO>()).ToList();
@@ -88,20 +99,27 @@ namespace Manager.Services
         // For Pagination
         public IQueryable<UserDTO> GetAllUserPagination()
         {
-            var users = _userRepo.GetAllUserPagination(); // IQueryable<User>
+            var users = _uow.user.GetAllUserPagination(); // IQueryable<User>
 
-            var usersDto = users
-                .AsQueryable()
-                .Select(u => new UserDTO
-                {
-                    UserId = u.UserId,
-                    UserName = u.UserName,
-                    Age = u.Age,
-                    Email = u.Email,
-                    Bio = u.Bio
-                });
+            // In IQueryable we cannot use Autommaper extension methodlike : ToMap<UserDTO>()
+            // ToMap<UserDTO>() , It's only good for in-memory object mapping
+            //var usersDto = users    
+            //    .AsQueryable()
+            //    .Select(u => new UserDTO
+            //    {
+            //        UserId = u.UserId,
+            //        UserName = u.UserName,
+            //        Age = u.Age,s
+            //        Email = u.Email,
+            //        Bio = u.Bio
+            //    });
+            //return usersDto; 
 
-            return usersDto; // IQueryable<UserDTO>
+
+
+
+            // IQueryable<UserDTO>, When IQueryable then use ProjectTO<>
+            return users.ProjectTo<UserDTO>(_mapper.ConfigurationProvider); 
         }
 
 

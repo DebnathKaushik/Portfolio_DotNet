@@ -89,7 +89,7 @@ namespace WEB.Controllers
             {
                 int pageSize = 5;
 
-                var users = _userService.SearchUserByUserName(userName);  // // IQueryable<UserDTO>
+                var users = _userService.SearchUserByUserName(userName);  // List<UserDTO>
 
                 if (string.IsNullOrEmpty(userName))
                 {
@@ -162,9 +162,9 @@ namespace WEB.Controllers
 
                 // 3. Prepare parameters (if you had any)
                 Dictionary<string, string> parameters = new Dictionary<string, string>()
-            {
-                { "user", details.User.UserName }
-            };
+                {
+                    { "user", details.User.UserName }
+                };
 
                 // 4. Create LocalReport (AspNetCore.Reporting)
                 LocalReport report = new LocalReport(rdlcFilePath);

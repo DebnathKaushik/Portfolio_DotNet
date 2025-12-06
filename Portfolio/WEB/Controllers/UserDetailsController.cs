@@ -5,6 +5,7 @@ using iTextSharp.text;
 using iTextSharp.text.pdf;
 using Manager.Services;
 using Microsoft.AspNetCore.Mvc;
+using Repository.Interfaces;
 
 namespace WEB.Controllers
 {
@@ -14,20 +15,20 @@ namespace WEB.Controllers
         private readonly ProjectService _projectService;
         private readonly ExperienceService _experienceService;
         private readonly EducationService _educationService;
-        private readonly IMapper _mapper;
+        private readonly IUnitOfWork _uow;
 
         // Dependency Injection 
-        public UserDetailsController(UserService userService, ProjectService projectService,ExperienceService experienceService, EducationService educationService, IMapper mapper)
+        public UserDetailsController(UserService userService, ProjectService projectService,ExperienceService experienceService, EducationService educationService, IUnitOfWork uow)
         {
             _userService = userService;
             _projectService = projectService;
             _experienceService = experienceService;
             _educationService = educationService;
-            _mapper = mapper;
+            _uow = uow;
 
         }
 
-        // GET: User details page for a user --------------------------------------------------
+        // GET: User details page for a user ----------------------------------------------
         [HttpGet]
         public IActionResult AddDetails(int userId)
         {
@@ -56,44 +57,50 @@ namespace WEB.Controllers
         }
 
 
-        // POST: User Details page ( for submit )--------------------------------------------------
+        // POST: User Details page ( for submit )----------------------------------------
         [HttpPost]
         public IActionResult AddDetails(UserDetailsViewModel model)
         {
             try
             {
-                var user = _userService.GetUserById(model.UserId);
-                if (user == null) return NotFound();
-
-                if (!ModelState.IsValid)
+                using(var tx = _uow.BeginTransaction())
                 {
-                    TempData["Error"] = "Validation Failed!";
-                    ViewData["UserName"] = user.UserName; // keep display
-                    return View(model);
-                }
+                    var user = _userService.GetUserById(model.UserId);
+                    if (user == null) return NotFound();
 
-                // Save Projects
-                foreach (var project in model.Projects)
-                {
-                    project.UserId = model.UserId;
-                    _projectService.CreateProject(project);
-                }
+                    if (!ModelState.IsValid)
+                    {
+                        TempData["Error"] = "Validation Failed!";
+                        ViewData["UserName"] = user.UserName; // keep display
+                        return View(model);
+                    }
 
-                // Save Experiences
-                foreach (var exp in model.Experiences)
-                {
-                    exp.UserId = model.UserId;
-                    _experienceService.CreateExperience(exp);
-                }
+                    // Save Projects
+                    foreach (var project in model.Projects)
+                    {
+                        project.UserId = model.UserId;
+                        _projectService.CreateProject(project);
+                    }
 
-                // Save Educations
-                foreach (var edu in model.Educations)
-                {
-                    edu.UserId = model.UserId;
-                    _educationService.CreateEducation(edu);
-                }
+                    // Save Experiences
+                    foreach (var exp in model.Experiences)
+                    {
+                        exp.UserId = model.UserId;
+                        _experienceService.CreateExperience(exp);
+                    }
 
+                    // Save Educations
+                    foreach (var edu in model.Educations)
+                    {
+                        edu.UserId = model.UserId;
+                        _educationService.CreateEducation(edu);
+                    }
+
+                    _uow.save();   // save all model here
+                    tx.Commit();   //  finalizes them into the database as one atomic action, ensuring all related database operations succeed or fail together .         
+                }
                 return RedirectToAction("Index", "User");
+
             }
             catch (Exception ex)
             {
@@ -141,46 +148,54 @@ namespace WEB.Controllers
         {
             try 
             {
-                if (!ModelState.IsValid)
+                using(var tx = _uow.BeginTransaction())
                 {
-                    TempData["Error"] = "Validation Failed: " + string.Join(", ",
-                        ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
-                    return View(model);
+                    if (!ModelState.IsValid)
+                    {
+                        TempData["Error"] = "Validation Failed: " + string.Join(", ",
+                            ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
+                        return View(model);
+                    }
+
+                    // Save/Update Projects
+                    foreach (var project in model.Projects)
+                    {
+                        project.UserId = model.UserId;
+
+                        if (project.ProjectId > 0)
+                            _projectService.UpdateProject(project);
+                        else
+                            _projectService.CreateProject(project);
+                    }
+
+                    // Save/Update Experiences
+                    foreach (var exp in model.Experiences)
+                    {
+                        exp.UserId = model.UserId;
+
+                        if (exp.ExperienceId > 0)
+                            _experienceService.UpdateExperience(exp);
+                        else
+                            _experienceService.CreateExperience(exp);
+                    }
+
+                    // Save/Update Educations
+                    foreach (var edu in model.Educations)
+                    {
+                        edu.UserId = model.UserId;
+
+                        if (edu.EducationId > 0)
+                            _educationService.UpdateEducation(edu);
+                        else
+                            _educationService.CreateEducation(edu);
+                    }
+
+
+                    _uow.save();
+                    tx.Commit();
+
                 }
-
-                // Save/Update Projects
-                foreach (var project in model.Projects)
-                {
-                    project.UserId = model.UserId;
-
-                    if (project.ProjectId > 0)
-                        _projectService.UpdateProject(project);
-                    else
-                        _projectService.CreateProject(project);
-                }
-
-                // Save/Update Experiences
-                foreach (var exp in model.Experiences)
-                {
-                    exp.UserId = model.UserId;
-
-                    if (exp.ExperienceId > 0)
-                        _experienceService.UpdateExperience(exp);
-                    else
-                        _experienceService.CreateExperience(exp);
-                }
-
-                // Save/Update Educations
-                foreach (var edu in model.Educations)
-                {
-                    edu.UserId = model.UserId;
-
-                    if (edu.EducationId > 0)
-                        _educationService.UpdateEducation(edu);
-                    else
-                        _educationService.CreateEducation(edu);
-                }
-
+           
                 TempData["Success"] = "Details Updated Successfully!";
                 return RedirectToAction("Index", "User");
             }
@@ -221,18 +236,25 @@ namespace WEB.Controllers
         {
             try 
             {
-                if (choice != "Yes")  // User Clicks No 
+                using (var tx = _uow.BeginTransaction())
                 {
-                    return RedirectToAction("Index", "User");
-                }
+                    if (choice != "Yes")  // User Clicks No 
+                    {
+                        return RedirectToAction("Index", "User");
+                    }
 
-                var deleted = _userService.DeleteUser(userId);
-                if (!deleted)
-                {
-                    TempData["Error"] = "User could not be deleted!";
-                    return RedirectToAction("Index", "User");
-                }
+                    var deleted = _userService.DeleteUser(userId);
+                    if (!deleted)
+                    {
+                        TempData["Error"] = "User could not be deleted!";
+                        return RedirectToAction("Index", "User");
+                    }
 
+                    _uow.save();
+                    tx.Commit();
+
+                }
+ 
                 TempData["Success"] = "User deleted successfully!";
                 return RedirectToAction("Index", "User");
             }

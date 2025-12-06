@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace Repository.Implementation
 {
     public class UserRepo : IUserRepo
     {
@@ -40,14 +40,14 @@ namespace Repository
         public User Create(User entity)
         {
             _table.Add(entity);
-            _db.SaveChanges();
+            //_db.SaveChanges();   // Cause UOW implemented
             return entity;
         }
 
         public User Update(User entity)
         {
             _table.Update(entity);
-            _db.SaveChanges();
+            //_db.SaveChanges();
             return entity;
         }
 
@@ -56,7 +56,7 @@ namespace Repository
             var entity = _table.Find(id);
             if (entity == null) return false;
             _table.Remove(entity);
-            _db.SaveChanges();
+            //_db.SaveChanges();
             return true;
         }
 
