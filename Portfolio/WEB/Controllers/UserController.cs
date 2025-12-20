@@ -153,7 +153,7 @@ namespace WEB.Controllers
                 System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
 
                 // 1. Get ViewModel data
-                var details = _userService.GetUserFullDetails(userId);
+                var details = _userService.GetUserFullDetails(userId); 
                 if (details == null) return NotFound();
 
                 // 2. Get RDLC file path
@@ -163,7 +163,11 @@ namespace WEB.Controllers
                 // 3. Prepare parameters (if you had any)
                 Dictionary<string, string> parameters = new Dictionary<string, string>()
                 {
-                    { "user", details.User.UserName }
+                    { "user", details.User.UserName },
+                    { "project",  details.Projects == null || details.Projects.Count <= 0 ? "Project Data Not Found" : null},
+                    { "education", details.Educations == null ||details.Educations.Count <= 0 ? "Education Data Not Found" : null},
+                    { "experience",  details.Experiences == null || details.Experiences.Count <= 0 ? "Experiences Data Not Found" : null},
+
                 };
 
                 // 4. Create LocalReport (AspNetCore.Reporting)

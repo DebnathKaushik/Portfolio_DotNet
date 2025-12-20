@@ -3,6 +3,78 @@
   "WorkspaceRootPath": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\wwwroot\\report\\userreport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\wwwroot\\report\\userreport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\implementation\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\implementation\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\dataset\\userdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\dataset\\userdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\rdlc\\dataset\\userdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\rdlc\\dataset\\userdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\implementation\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\implementation\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\general entity\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\general entity\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\utility\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\utility\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\utility\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\utility\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\business entity\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\business entity\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,80 +99,16 @@
       "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\implementation\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\implementation\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\implementation\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\implementation\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\utility\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\utility\\mappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\business entity\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\business entity\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\general entity\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\general entity\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\utility\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\utility\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\views\\error\\notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -123,20 +131,8 @@
       "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\general entity\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\general entity\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\common\\ihasuserid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|solutionrelative:entity\\common\\ihasuserid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\rdlc\\reports\\userreport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\rdlc\\reports\\userreport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\rdlc\\dataset\\userdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\rdlc\\dataset\\userdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DAF906A-EE28-4BB2-925B-FF4C3726FEF3}|Entity\\Entity.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\entity\\business entity\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -166,133 +162,126 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDetailsController.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\UserDetailsController.cs",
-              "RelativeDocumentMoniker": "WEB\\Controllers\\UserDetailsController.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\UserDetailsController.cs",
-              "RelativeToolTip": "WEB\\Controllers\\UserDetailsController.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAAAPwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:31:45.103Z",
+              "DocumentIndex": 4,
+              "Title": "UserDataSet.xsd",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Dataset\\UserDataSet.xsd",
+              "RelativeDocumentMoniker": "WEB\\Dataset\\UserDataSet.xsd",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Dataset\\UserDataSet.xsd",
+              "RelativeToolTip": "WEB\\Dataset\\UserDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-12-20T08:10:16.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "UserReport.rdlc [Design]",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\wwwroot\\Report\\UserReport.rdlc",
+              "RelativeDocumentMoniker": "WEB\\wwwroot\\Report\\UserReport.rdlc",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\wwwroot\\Report\\UserReport.rdlc [Design]",
+              "RelativeToolTip": "WEB\\wwwroot\\Report\\UserReport.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-12-11T05:22:24.441Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExperienceService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ExperienceService.cs",
+              "RelativeDocumentMoniker": "Manager\\Services\\ExperienceService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ExperienceService.cs",
+              "RelativeToolTip": "Manager\\Services\\ExperienceService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwCIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:02:45.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\UserController.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\UserController.cs",
               "RelativeToolTip": "WEB\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAApwFAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAAKYAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T06:05:25.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditDetails.cshtml",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\UserDetails\\EditDetails.cshtml",
-              "RelativeDocumentMoniker": "WEB\\Views\\UserDetails\\EditDetails.cshtml",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\UserDetails\\EditDetails.cshtml",
-              "RelativeToolTip": "WEB\\Views\\UserDetails\\EditDetails.cshtml",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T11:21:44.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WEB\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WEB\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T08:33:44.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "My_Custom_Layout.cshtml",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\Shared\\My_Custom_Layout.cshtml",
-              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\My_Custom_Layout.cshtml",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\Shared\\My_Custom_Layout.cshtml",
-              "RelativeToolTip": "WEB\\Views\\Shared\\My_Custom_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T08:31:14.297Z",
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IUserRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IUserRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IUserRepo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAEwBIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T08:46:23.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\UserDetails\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WEB\\Views\\UserDetails\\Delete.cshtml",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\UserDetails\\Delete.cshtml",
-              "RelativeToolTip": "WEB\\Views\\UserDetails\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T11:15:04.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FullUserDetails.cshtml",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\FullUserDetails.cshtml",
-              "RelativeDocumentMoniker": "WEB\\Views\\User\\FullUserDetails.cshtml",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\FullUserDetails.cshtml",
-              "RelativeToolTip": "WEB\\Views\\User\\FullUserDetails.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGgAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T08:40:11.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Manager\\Services\\UserService.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\UserService.cs",
-              "RelativeToolTip": "Manager\\Services\\UserService.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAtwHoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T06:35:33.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\UserRepo.cs",
               "RelativeDocumentMoniker": "Repository\\Implementation\\UserRepo.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\UserRepo.cs",
               "RelativeToolTip": "Repository\\Implementation\\UserRepo.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAlwKkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAlwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T11:44:55.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Repository\\Implementation\\UnitOfWork.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\UnitOfWork.cs",
-              "RelativeToolTip": "Repository\\Implementation\\UnitOfWork.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwCQAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UserDataSet.xsd",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\RDLC\\Dataset\\UserDataSet.xsd",
+              "RelativeDocumentMoniker": "Repository\\RDLC\\Dataset\\UserDataSet.xsd",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\RDLC\\Dataset\\UserDataSet.xsd",
+              "RelativeToolTip": "Repository\\RDLC\\Dataset\\UserDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-12-11T05:22:57.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Program.cs",
+              "RelativeDocumentMoniker": "WEB\\Program.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Program.cs",
+              "RelativeToolTip": "WEB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:54:34.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T04:56:36.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "Manager\\Services\\ProjectService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ProjectService.cs",
+              "RelativeToolTip": "Manager\\Services\\ProjectService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:01:38.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DB_Context.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\DB_Context.cs",
+              "RelativeDocumentMoniker": "Entity\\DB_Context.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\DB_Context.cs",
+              "RelativeToolTip": "Entity\\DB_Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T05:06:27.223Z"
             },
             {
               "$type": "Document",
@@ -302,49 +291,45 @@
               "RelativeDocumentMoniker": "Repository\\Implementation\\BaseRepo.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\BaseRepo.cs",
               "RelativeToolTip": "Repository\\Implementation\\BaseRepo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAApwBkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T08:40:10.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T08:40:10.571Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "DB_Context.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\DB_Context.cs",
-              "RelativeDocumentMoniker": "Entity\\DB_Context.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\DB_Context.cs",
-              "RelativeToolTip": "Entity\\DB_Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Title": "Education.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Education.cs",
+              "RelativeDocumentMoniker": "Entity\\General Entity\\Education.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Education.cs",
+              "RelativeToolTip": "Entity\\General Entity\\Education.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T05:06:27.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Program.cs",
-              "RelativeDocumentMoniker": "WEB\\Program.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Program.cs",
-              "RelativeToolTip": "WEB\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:56:36.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T12:02:07.605Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "EducationService.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\EducationService.cs",
-              "RelativeDocumentMoniker": "Manager\\Services\\EducationService.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\EducationService.cs",
-              "RelativeToolTip": "Manager\\Services\\EducationService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAApwEUAAAAIAAAAAAAAAA==",
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T11:14:15.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T08:27:51.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBaseRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IBaseRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IBaseRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IBaseRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IBaseRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T04:09:07.618Z"
             },
             {
               "$type": "Document",
@@ -354,142 +339,157 @@
               "RelativeDocumentMoniker": "Manager\\Utility\\MappingExtensions.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Utility\\MappingExtensions.cs",
               "RelativeToolTip": "Manager\\Utility\\MappingExtensions.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAlwB4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAlwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:02:14.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T12:02:14.916Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ExperienceService.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ExperienceService.cs",
-              "RelativeDocumentMoniker": "Manager\\Services\\ExperienceService.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ExperienceService.cs",
-              "RelativeToolTip": "Manager\\Services\\ExperienceService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T09:02:45.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProjectService.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ProjectService.cs",
-              "RelativeDocumentMoniker": "Manager\\Services\\ProjectService.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\ProjectService.cs",
-              "RelativeToolTip": "Manager\\Services\\ProjectService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAlwEgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T09:01:38.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "WEB\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "WEB\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T09:40:08.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAASwBEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:27:51.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IBaseRepo.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IBaseRepo.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IBaseRepo.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IBaseRepo.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IBaseRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T04:09:07.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IUserRepo.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IUserRepo.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IUserRepo.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Interfaces\\IUserRepo.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IUserRepo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T08:46:23.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\Business Entity\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Entity\\Business Entity\\UserDTO.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\Business Entity\\UserDTO.cs",
-              "RelativeToolTip": "Entity\\Business Entity\\UserDTO.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:05:45.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "WEB\\Views\\User\\Create.cshtml",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "WEB\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T06:12:23.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Project.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Project.cs",
-              "RelativeDocumentMoniker": "Entity\\General Entity\\Project.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Project.cs",
-              "RelativeToolTip": "Entity\\General Entity\\Project.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T11:56:27.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Utility\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Manager\\Utility\\MappingProfile.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Utility\\MappingProfile.cs",
               "RelativeToolTip": "Manager\\Utility\\MappingProfile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T06:28:40.001Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\Business Entity\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Entity\\Business Entity\\UserDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\Business Entity\\UserDTO.cs",
+              "RelativeToolTip": "Entity\\Business Entity\\UserDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:05:45.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\User\\Create.cshtml",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "WEB\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T06:12:23.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FullUserDetails.cshtml",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\FullUserDetails.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\User\\FullUserDetails.cshtml",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\FullUserDetails.cshtml",
+              "RelativeToolTip": "WEB\\Views\\User\\FullUserDetails.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAIBJwGgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T08:40:11.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\UserDetails\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\UserDetails\\Delete.cshtml",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\UserDetails\\Delete.cshtml",
+              "RelativeToolTip": "WEB\\Views\\UserDetails\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T11:15:04.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "My_Custom_Layout.cshtml",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\Shared\\My_Custom_Layout.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\My_Custom_Layout.cshtml",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\Shared\\My_Custom_Layout.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Shared\\My_Custom_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T08:31:14.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WEB\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T08:33:44.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditDetails.cshtml",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\UserDetails\\EditDetails.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\UserDetails\\EditDetails.cshtml",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\UserDetails\\EditDetails.cshtml",
+              "RelativeToolTip": "WEB\\Views\\UserDetails\\EditDetails.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAIBJwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T11:21:44.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDetailsController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\UserDetailsController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\UserDetailsController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\UserDetailsController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\UserDetailsController.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAowPwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T04:31:45.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repository\\Implementation\\UnitOfWork.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\UnitOfWork.cs",
+              "RelativeToolTip": "Repository\\Implementation\\UnitOfWork.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:54:34.867Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "WEB\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwDEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T09:40:08.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Project.cs",
+              "RelativeDocumentMoniker": "Entity\\General Entity\\Project.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Project.cs",
+              "RelativeToolTip": "Entity\\General Entity\\Project.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T11:56:27.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Notfound.cshtml",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\Error\\Notfound.cshtml",
               "RelativeDocumentMoniker": "WEB\\Views\\Error\\Notfound.cshtml",
@@ -501,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Experience.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Experience.cs",
               "RelativeDocumentMoniker": "Entity\\General Entity\\Experience.cs",
@@ -513,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ErrorController.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\ErrorController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\ErrorController.cs",
@@ -525,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ServerError.cshtml",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\Error\\ServerError.cshtml",
               "RelativeDocumentMoniker": "WEB\\Views\\Error\\ServerError.cshtml",
@@ -537,95 +537,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WEB\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WEB\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-01T06:59:22.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Education.cs",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Education.cs",
-              "RelativeDocumentMoniker": "Entity\\General Entity\\Education.cs",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\General Entity\\Education.cs",
-              "RelativeToolTip": "Entity\\General Entity\\Education.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:02:07.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "IHasUserId.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\Common\\IHasUserId.cs",
               "RelativeDocumentMoniker": "Entity\\Common\\IHasUserId.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\Common\\IHasUserId.cs",
               "RelativeToolTip": "Entity\\Common\\IHasUserId.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T09:53:40.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "ProjectDTO.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\Business Entity\\ProjectDTO.cs",
               "RelativeDocumentMoniker": "Entity\\Business Entity\\ProjectDTO.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Entity\\Business Entity\\ProjectDTO.cs",
               "RelativeToolTip": "Entity\\Business Entity\\ProjectDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T12:06:59.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UserDataSet.xsd",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\RDLC\\Dataset\\UserDataSet.xsd",
-              "RelativeDocumentMoniker": "Repository\\RDLC\\Dataset\\UserDataSet.xsd",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\RDLC\\Dataset\\UserDataSet.xsd",
-              "RelativeToolTip": "Repository\\RDLC\\Dataset\\UserDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-11-30T08:32:30.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "UserReport.rdlc",
-              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\RDLC\\Reports\\UserReport.rdlc",
-              "RelativeDocumentMoniker": "Repository\\RDLC\\Reports\\UserReport.rdlc",
-              "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\RDLC\\Reports\\UserReport.rdlc",
-              "RelativeToolTip": "Repository\\RDLC\\Reports\\UserReport.rdlc",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-11-30T08:32:38.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\appsettings.json",
               "RelativeDocumentMoniker": "WEB\\appsettings.json",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\appsettings.json",
               "RelativeToolTip": "WEB\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-12T09:51:07.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Class1.cs",
               "RelativeDocumentMoniker": "Manager\\Class1.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Class1.cs",
               "RelativeToolTip": "Manager\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T11:43:19.809Z"
             }

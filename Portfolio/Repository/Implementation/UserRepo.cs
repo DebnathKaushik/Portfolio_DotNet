@@ -81,7 +81,7 @@ namespace Repository.Implementation
 
                     var vm = new UserFullDetailsVM();   // ViewModel Where bind my all 4 Model
 
-                    using( var reader = cmd.ExecuteReader()) 
+                    using( var reader = cmd.ExecuteReader())   // Here is Call the SP .
                     {
 
 
