@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\implementation\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|solutionrelative:repository\\implementation\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\manager\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9D5AC2B-7037-4DFA-9C23-DBADF9DC0F61}|Manager\\Manager.csproj|solutionrelative:manager\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA59EA7-5AF4-4E36-8C56-6F3B023B77C2}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09D416BD-9AE4-442C-856E-063DE9A4BE3C}|Repository\\Repository.csproj|d:\\my stuff\\projects\\portfolio_dotnet\\portfolio\\repository\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,44 +174,42 @@
               "RelativeToolTip": "WEB\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T18:59:28.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T18:59:28.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Manager\\Services\\UserService.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Manager\\Services\\UserService.cs",
               "RelativeToolTip": "Manager\\Services\\UserService.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAjwGUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAvwGUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T18:58:30.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T18:58:30.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WEB\\Controllers\\UserController.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\WEB\\Controllers\\UserController.cs",
               "RelativeToolTip": "WEB\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T06:05:25.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\UserRepo.cs",
               "RelativeDocumentMoniker": "Repository\\Implementation\\UserRepo.cs",
               "ToolTip": "D:\\My Stuff\\PROJECTS\\Portfolio_DotNet\\Portfolio\\Repository\\Implementation\\UserRepo.cs",
               "RelativeToolTip": "Repository\\Implementation\\UserRepo.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAjwKwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAKgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T11:44:55.172Z",
               "EditorCaption": ""
@@ -226,8 +224,7 @@
               "RelativeToolTip": "WEB\\Controllers\\ErrorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T06:25:41.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T06:25:41.075Z"
             },
             {
               "$type": "Document",
@@ -239,8 +236,7 @@
               "RelativeToolTip": "WEB\\Views\\User\\FullUserDetails.cshtml",
               "ViewState": "AgIAAFUAAAAAAAAAAAArwGgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T08:40:11.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T08:40:11.525Z"
             },
             {
               "$type": "Document",
@@ -252,8 +248,7 @@
               "RelativeToolTip": "Repository\\Interfaces\\IUserRepo.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAArwBYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T08:46:23.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T08:46:23.893Z"
             },
             {
               "$type": "Document",
@@ -265,8 +260,7 @@
               "RelativeToolTip": "WEB\\Controllers\\UserDetailsController.cs",
               "ViewState": "AgIAAFUBAAAAAAAAAADwv/wAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:31:45.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T04:31:45.103Z"
             },
             {
               "$type": "Document",
@@ -278,8 +272,7 @@
               "RelativeToolTip": "Repository\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:27:51.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T08:27:51.537Z"
             },
             {
               "$type": "Document",
@@ -291,8 +284,7 @@
               "RelativeToolTip": "WEB\\Views\\User\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T06:12:23.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T06:12:23.57Z"
             },
             {
               "$type": "Document",
@@ -315,8 +307,7 @@
               "RelativeToolTip": "Repository\\Implementation\\BaseRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T08:40:10.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T08:40:10.571Z"
             },
             {
               "$type": "Document",
@@ -328,8 +319,7 @@
               "RelativeToolTip": "Repository\\Implementation\\UnitOfWork.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAuwCQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:54:34.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T08:54:34.867Z"
             },
             {
               "$type": "Document",
